@@ -197,3 +197,74 @@ body {
 .hero-svg-right {
   margin-right: -12rem;
 }
+.map {
+  background-color: #fff;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.map-heading {
+  text-align: center;
+  color: #142149;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.map-desc {
+  color: #525666;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.map-svg {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.map-svg-locations {
+  position: absolute;
+  right: 10rem;
+  top: 0rem;
+  background-color: #fff;
+  padding: 3rem 3rem;
+  border-radius: 50%;
+  text-align: center;
+  color: #007bfc;
+  -webkit-box-shadow: 0 15px 70px rgba(0, 0, 0, 0.158);
+          box-shadow: 0 15px 70px rgba(0, 0, 0, 0.158);
+}
+
+.map-svg-locations-number {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.map-svg-img {
+  width: 80%;
+}
+
+.map-svg-btn {
+  background-color: #fff;
+  color: #007bfc;
+  border: 0.1rem solid #007bfc;
+  border-radius: 0.1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
