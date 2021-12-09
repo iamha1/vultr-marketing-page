@@ -6,26 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Vultr in Asia</title>
-
-    <!-- font -->
-    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.webp"
+      type="image/x-icon"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- javaScript -->
+    <script src="./js/index.js" defer></script>
   </head>
+
   <body>
     <header>
-      <div class="container">
-        <img
-          src="img/vultr-brand-logo/PNG/large_signet/signet__on-white.png"
-          alt="nav-logo"
-          class="vultr-logo"
-          
-        />
-        <nav>
-          <ul>
-            <li><button>Create free account</button></li>
-            <li><button>Contact Sales</button></li>
-          </ul>
-        </nav>
+      <!-- ------------------------ -->
+      <!-- hero section starts here -->
+      <!-- ------------------------ -->
+
+      <div class="hero">
+        <!-- hero header starts here -->
+        <div class="hero-header">
+          <a href="https://www.vultr.com/">
+            <img
+              src="./images/mainlogo.svg"
+              alt="Vultr logo here"
+              class="hero-header-logo"
+            />
+          </a>
+          <div class="hero-header-btns">
+            <a
+              href="https://www.vultr.com/register"
+              class="hero-header-btns-link"
+              >Create Free Account</a
+            >
+            <a
+              href="https://www.vultr.com/company/contact/sales"
+              class="hero-header-btns-link"
+              >Contact Sales</a
+            >
+          </div>
+        </div>
+        <!-- hero header ends here -->
+
+        <!-- hero main text starts here -->
+        <div class="hero-main">
+          <div class="hero-main-1">High Performance Cloud Servers</div>
+          <div class="hero-main-2">
+            Easily deploy cloud servers, bare metal, and storage worldwide.
+          </div>
+        </div>
+        <!-- hero main text ends here -->
+
+        <!-- hero form starts here -->
+        <div class="hero-form">
+          <div class="hero-form-heading">
+            <div class="hero-form-heading-1">Cycle.io customers</div>
+            <div class="hero-form-heading-2">claim your $50 credit!</div>
+          </div>
+          <div class="hero-form-email">
+            <input
+              type="email"
+              class="hero-form-email-input"
+              placeholder="Email Address"
+            />
+            <img
+              src="./images/emailicon.svg"
+              alt="email"
+              class="hero-form-email-icon"
+            />
+          </div>
+          <div class="hero-form-pass">
+            <input
+              type="password"
+              class="hero-form-pass-input"
+              placeholder="Password"
+            />
+            <img
+              src="./images/passicon.svg"
+              alt="password"
+              class="hero-form-pass-icon"
+            />
+          </div>
+          <a href="https://www.vultr.com/register" class="hero-form-submit"
+            >Create Free Account</a
+          >
+        </div>
+        <!-- hero form ends here -->
+
+        <!-- hero bottom starts here -->
+        <img src="./images/herobottom.svg" alt="bottom" class="hero-bottom" />
+        <!-- hero bottom ends here -->
+
+        <!-- hero svg container starts here -->
+        <div class="hero-svg">
+          <img
+            src="./images/heroleft.svg"
+            alt="left svg"
+            class="hero-svg-left"
+          />
+          <img
+            src="./images/heroright.svg"
+            alt="right svg"
+            class="hero-svg-right"
+          />
+        </div>
+        <!-- hero svg container ends here -->
+
+        <!-- container to fix an issue, issue can be seen by commenting this, css is weird, always! -->
+        <div
+          class="hero-container"
+          style="background-color: #fff; height: 1rem; margin-top: -1rem"
+        ></div>
       </div>
+
+      <!-- ------------------------ -->
+      <!-- hero sections ends here  -->
+      <!-- ------------------------ -->
     </header>
   </body>
 </html>

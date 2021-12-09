@@ -1,20 +1,199 @@
-.vultr-logo {
-  margin: 0;
-  font-size: 100px;
-  float: left;
-}
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-nav {
-  float: right;
-}
-nav ul {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,500&display=swap");
+* {
   margin: 0;
   padding: 0;
-  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
-nav li {
-  display: inline-block;
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+.hero {
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#021048), to(#1e38a3));
+  background: linear-gradient(90deg, #021048, #1e38a3);
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 2.2rem 5.5rem;
+}
+
+.hero-header-logo {
+  width: 9rem;
+}
+
+.hero-header-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-header-btns-link {
+  color: #fff;
+  border: 0.1rem solid rgba(223, 226, 235, 0.32);
+  padding: 0.8rem 1.8rem;
+  font-weight: 600;
+  font-size: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-header-btns-link:nth-child(1) {
+  margin-right: 2rem;
+}
+
+.hero-header-btns-link:hover {
+  background-color: rgba(255, 255, 255, 0.062);
+}
+
+.hero-main {
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero-main-1 {
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.hero-main-2 {
+  color: rgba(229, 235, 255, 0.8);
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+
+.hero-form {
+  background-color: #fff;
+  -webkit-box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.301);
+          box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.301);
+  position: relative;
+  z-index: 100;
+  width: 30rem;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 3rem;
+  border-radius: 0.3rem;
+}
+
+.hero-form-heading {
+  text-align: center;
+}
+
+.hero-form-heading-1 {
+  color: #142149;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.hero-form-heading-2 {
+  color: #007bfc;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 0.2rem;
+}
+
+.hero-form-email, .hero-form-pass {
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.hero-form-email-input, .hero-form-pass-input {
+  width: 100%;
+  border: 0.15rem solid #d3d6e2;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  outline: none;
+  padding-left: 3.2rem;
+  color: #525666;
+  border-radius: 0.1rem;
+}
+
+.hero-form-email-input:focus, .hero-form-pass-input:focus {
+  border: 0.15rem solid #007bfc;
+}
+
+.hero-form-email-icon, .hero-form-pass-icon {
+  position: absolute;
+  width: 1.5rem;
+  left: 1.2rem;
+  top: 1rem;
+}
+
+.hero-form-submit {
+  display: block;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #007bfc;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.hero-bottom {
+  margin-top: -18rem;
+}
+
+.hero-svg {
+  position: absolute;
+  bottom: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.hero-svg-left, .hero-svg-right {
+  width: 20rem;
+}
+
+.hero-svg-left {
+  margin-left: -12rem;
+}
+
+.hero-svg-right {
+  margin-right: -12rem;
 }
