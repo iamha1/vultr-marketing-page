@@ -1,0 +1,28 @@
+<svg class="app-icon app-icon--more" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <style>
+    .app-icon--more__container {
+      opacity: .8;
+    }
+
+    .app-icon--more__arrow {
+      fill: none;
+      stroke: #666b80;
+      stroke-width: 2px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill-rule: evenodd;
+      transition: .3s ease;
+    }
+
+    .app-icon--more__circle {
+      fill: none;
+      stroke: #666b80;
+      stroke-width: 2px;
+      transition: .3s ease;
+    }
+  </style>
+  <g class="app-icon--more__container">
+    <path class="app-icon--more__arrow" d="M1392,4733h20m2,0-9-9m9.22,9.48-8.8,8.81" transform="translate(-1376 -4705)"></path>
+    <circle class="app-icon--more__circle" cx="28" cy="28" r="27"></circle>
+  </g>
+</svg>

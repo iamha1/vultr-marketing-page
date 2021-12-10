@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.987" height="35.999" viewBox="0 0 48.987 35.999">
+	<g transform="translate(-442.005 -274.997)">
+		<path class="speedometer__max-speed" d="M445.9,308a21.993,21.993,0,1,1,40.193,0" fill="none" stroke="#e6e9eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></path>
+		<path data-speedometer-speed="" class="speedometer__speed" style="stroke-dashoffset: 36.7494px; stroke-dasharray: 87.4986px;" d="M445.9,308a21.993,21.993,0,1,1,40.193,0" fill="none" stroke="#007bfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="87.49861145019531"></path>
+	</g>
+</svg>

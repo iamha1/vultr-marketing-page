@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.987" height="35.999" viewBox="0 0 48.987 35.999">
+  <style>
+    .speedometer--xl .speedometer__arrow {
+      transform-origin: 35px 45px;
+      top: -4px;
+    }
+
+    .speedometer__arrow {
+      position: absolute;
+      top: 4px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      transform-origin: 24px 24px;
+    }
+  </style>
+  <g transform="translate(-442.005 -274.997)">
+    <path class="speedometer__arrow" d="M464,298l.154.232A2,2,0,1,1,466,301h0l-9,3Z" fill="#007bfc" stroke="#007bfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+  </g>
+</svg>

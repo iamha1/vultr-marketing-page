@@ -1,0 +1,72 @@
+<svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" alt="No long contracts at Vultr">
+<style type="text/css">
+    .icon-sm .fill-gradient {
+      fill: #cadefe;
+      stroke: #b2b9ce;
+      stroke-width: 1;
+    }
+
+    .icon-sm .fill-primary.stroke-primary {
+      stroke-width: 1;
+    }
+
+    .icon-sm .stroke-primary,
+    .icon-sm .stroke-primary-l {
+      stroke: #007bfc;
+    }
+
+    .icon-sm .fill-primary {
+      fill: #007bfc;
+    }
+
+    .icon-sm .stroke-dark {
+      stroke: #142149;
+    }
+
+    .icon-sm .fill-primary {
+      fill: #007bfc;
+    }
+
+    .icon-sm>* {
+      fill: none;
+    }
+
+    .st0 {
+      fill: url(#infinite-os-combination-gradient-1);
+      stroke: url(#infinite-os-combination-gradient-2);
+    }
+
+    .st1 {
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      fill: #1062FE;
+      stroke: #1062FE;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .st2 {
+      fill: none;
+      stroke: #393D45;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .st3 {
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      fill: #1062FE;
+    }
+  </style>
+  <polygon class="fill-gradient" points="4,37.6 10.3,34.4 11,16.5 26,7.5 26,0.5 4,12.9"></polygon>
+  <line class="stroke-dark" x1="21.8" y1="47.5" x2="14.4" y2="43.2"></line>
+  <line class="stroke-dark" x1="44" y1="10.4" x2="36.1" y2="6.1"></line>
+  <line class="stroke-dark" x1="21.8" y1="22.6" x2="14.1" y2="18.3"></line>
+  <polygon class="stroke-dark" points="22,47.5 44,35.5 44,10.4 22,22.8"></polygon>
+  <polygon class="fill-primary stroke-primary" points="9,40.4 13.9,37.9 14,18.5 31,8.7 31,3.3 9,15.7"></polygon>
+  <line class="stroke-dark" x1="44" y1="15.1" x2="22.2" y2="27.6"></line>
+  <polyline class="stroke-dark" points="39.6,8.1 18,20.5 18,45.2"></polyline>
+  <polyline class="stroke-dark" points="14.1,43 14.1,18.5 36.1,6"></polyline>
+  <line class="stroke-primary stroke-1-5" x1="30.2" y1="28.4" x2="36.9" y2="32.3"></line>
+  <line class="stroke-primary stroke-1-5" x1="36.9" y1="24.5" x2="30.2" y2="36.2"></line>
+</svg>
