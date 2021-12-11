@@ -22,3 +22,25 @@ wwTabBtns.forEach((btn) => {
     }
   });
 });
+
+let deployBtns = document.querySelectorAll(".deploy-tabs-link");
+let deployedTabs = document.querySelectorAll(".deployed");
+
+deployBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    deployBtns.forEach((newBtn) => {
+      if (newBtn === btn) {
+        newBtn.classList.add("deploy-tabs-link-active");
+      } else {
+        newBtn.classList.remove("deploy-tabs-link-active");
+      }
+    });
+    if (btn.innerHTML === "One Click Apps") {
+      deployedTabs[1].classList.add("deployed-active");
+      deployedTabs[0].classList.remove("deployed-active");
+    } else if (btn.innerHTML === "OS Library") {
+      deployedTabs[0].classList.add("deployed-active");
+      deployedTabs[1].classList.remove("deployed-active");
+    }
+  });
+});
