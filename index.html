@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Vultr in Asia</title>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,9 +19,9 @@
       type="image/x-icon"
     />
     <!-- stylesheet -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- javaScript -->
-    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- custom js -->
+    <script src="index.js" defer></script>
   </head>
 
   <body>
@@ -36,7 +35,7 @@
         <a href="https://www.vultr.com/">
           <img
             src="./images/mainlogo.svg"
-            alt="Vultr logo here"
+            alt="logo here"
             class="hero-header-logo"
           />
         </a>
@@ -57,7 +56,11 @@
       <div class="hero-main">
         <div class="hero-main-1">High Performance Cloud Servers</div>
         <div class="hero-main-2">
-          Easily deploy cloud servers, bare metal, and storage worldwide.
+          <h4>Proud to bring highly reliable high performance cloud compute
+          environment to Asia!</h2>
+          <br>
+          <p>Easily deploy cloud servers,
+          bare metal, and storage worldwide.</p>
         </div>
       </div>
       <!-- hero main text ends here -->
@@ -65,8 +68,8 @@
       <!-- hero form starts here -->
       <div class="hero-form">
         <div class="hero-form-heading">
-          <div class="hero-form-heading-1">Cycle.io customers</div>
-          <div class="hero-form-heading-2">claim your $50 credit!</div>
+          <div class="hero-form-heading-1">Want to know more?</div>
+          <div class="hero-form-heading-2">Register here!</div>
         </div>
         <div class="hero-form-email">
           <input
@@ -123,10 +126,19 @@
     <!-- ------------------------ -->
     <!-- hero sections ends here  -->
     <!-- ------------------------ -->
+
+    <!-- about vultr -->
+     <div class="about">
+      <div class="map-heading">About Vultr</div>
+       <div class="map-desc">Vultr, founded in 2014, is on a mission to empower developers and businesses by simplifying the deployment of infrastructure via its advanced cloud platform. Vultr is strategically located in 20 datacenters around the globe and provides frictionless provisioning of public cloud, storage and single-tenant bare metal.
+
+Vultr has made it our priority to offer a standardized highly reliable high performance cloud compute environment in all of the cities we serve. Launching a cloud server environment in 20 cities around the globe has never been easier! </div>
+    </div>
+
+
     <!-- ------------------------ -->
     <!-- map section starts here -->
     <!-- ------------------------ -->
-
     <div class="map">
       <div class="map-heading">Develop locally, deploy globally®</div>
       <div class="map-desc">20 worldwide locations</div>
@@ -138,7 +150,7 @@
         <img src="./images/map1.svg" alt="map" class="map-svg-img" />
         <a
           href="https://www.vultr.com/features/datacenter-locations/"
-          class="map-svg-btn"
+          class="map-svg-btn" target="_blank"
         >
           Explore locations features
         </a>
@@ -152,6 +164,7 @@
     <!-- ----------------------------- -->
     <!-- difference section starts here -->
     <!-- ----------------------------- -->
+
     <div class="differences">
       <div class="differences-heading">Our key differentiators</div>
       <!-- differences row starts here -->
@@ -262,7 +275,7 @@
       <div class="worldwide-desc">
         Vultr's easy to use interface allows you to deploy high performance
         servers worldwide using our intuitive control panel available for any
-        kind of device - mobile, tablet, and desktop!
+        kind of device - mobile,tablet, and desktop!
       </div>
       <div class="worldwide-tabs">
         <div class="worldwide-tabs-link worldwide-tabs-link-active">
@@ -295,6 +308,7 @@
       </div>
       <!-- worldwide svg container ends here -->
     </div>
+
     <!-- ----------------------------- -->
     <!-- worldwide section ends here -->
     <!-- ----------------------------- -->
@@ -329,6 +343,7 @@
         </div>
       </div>
     </div>
+
     <!-- ----------------------------- -->
     <!-- feature section ends here -->
     <!-- ----------------------------- -->
@@ -336,6 +351,7 @@
     <!-- ----------------------------- -->
     <!-- feature section starts here -->
     <!-- ----------------------------- -->
+
     <div class="feature">
       <div class="feature-col feature-col-2">
         <div class="feature-col-heading">Memory Performance</div>
@@ -370,6 +386,338 @@
     <!-- ----------------------------- -->
     <!-- deploy section starts here -->
     <!-- ----------------------------- -->
+
+    <div class="deploy">
+      <div class="deploy-heading">Deploy anything in seconds</div>
+      <div class="deploy-desc">
+        Spin up a new instance with your preferred operating system or
+        pre-installed application in just seconds.
+      </div>
+      <div class="deploy-tabs">
+        <div class="deploy-tabs-link deploy-tabs-link-active">OS Library</div>
+        <div class="deploy-tabs-link">One Click Apps</div>
+      </div>
+      <div class="deployed-container">
+        <div class="deployed deployed-active">
+          <div class="deployed-row">
+            <a
+              href="https://www.vultr.com/servers/alma-linux"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/alma.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Alma Linux</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/archlinux"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/arch.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Arch Linux</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/centos"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/cent.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">CentOS</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/debian"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/debian.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Debian</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/fedora"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/fedora.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Fedora</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/fedora-coreos"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/fedoracore.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Fedora CoreOS</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/freebsd"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/free.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">FreeBSD</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/openbsd"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/open.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">OpenBSD</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/rocky-linux"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/rockey.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Rocky Linux</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/ubuntu"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/ubuntu.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Ubuntu</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/vzlinux"
+              class="deployed-row-col"
+            >
+              <img src="./images/vz.svg" alt="" class="deployed-row-col-img" />
+              <div class="deployed-row-col-heading">VzLinux</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/windows"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/window.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Windows</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/servers/windowscore"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/core.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Windows Core</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <div class="deployed">
+          <div class="deployed-row">
+            <a
+              href="https://www.vultr.com/apps/centos-webpanel"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/cent.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">CentOS Web Panel</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/cpanel"
+              class="deployed-row-col"
+            >
+              <img src="./images/cp.svg" alt="" class="deployed-row-col-img" />
+              <div class="deployed-row-col-heading">cPanel</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/docker"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/docker.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Docker</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/drupal"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/drupal.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Drupal</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/gitlab"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/gitlab.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">GitLab</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a href="https://www.vultr.com/apps/jitsi" class="deployed-row-col">
+              <img
+                src="./images/jitsi.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Jitsi</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/joomla"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/joomla.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Joomla</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a href="https://www.vultr.com/apps/lamp" class="deployed-row-col">
+              <img
+                src="./images/lamp.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Lamp</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/magento"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/magneto.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Magneto</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/minecraft"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/minecraft.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Minecraft</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/pritunl"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/prituni.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">Pritunl</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/apps/wordpress"
+              class="deployed-row-col"
+            >
+              <img src="./images/wp.svg" alt="" class="deployed-row-col-img" />
+              <div class="deployed-row-col-heading">Wordpress</div>
+              <div class="deployed-row-col-desc">Learn more</div>
+            </a>
+            <a
+              href="https://www.vultr.com/features/one-click-apps/"
+              class="deployed-row-col"
+            >
+              <img
+                src="./images/click.svg"
+                alt=""
+                class="deployed-row-col-img"
+              />
+              <div class="deployed-row-col-heading">
+                View All Once Click Apps
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.vultr.com/register/" class="deploy-btn">
+        Create free account
+      </a>
+    </div>
+
+    <!-- ----------------------------- -->
+    <!-- deploy section ends here -->
+    <!-- ----------------------------- -->
+
+    <!-- ----------------------------- -->
+    <!-- footer section starts here -->
+    <!-- ----------------------------- -->
+
     <div class="footer">
       <div class="footer-row">
         <div class="footer-row-col">
@@ -665,5 +1013,9 @@
         </div>
       </div>
     </div>
+
+    <!-- ----------------------------- -->
+    <!-- footer section ends here -->
+    <!-- ----------------------------- -->
   </body>
 </html>
