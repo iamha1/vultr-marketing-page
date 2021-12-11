@@ -208,6 +208,11 @@ body {
 .hero-svg-right {
   margin-right: -12rem;
 }
+.about-vultr {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 
 .map {
   background-color: #fff;
