@@ -14,6 +14,11 @@ a {
 body {
   background-color: #fff;
 }
+.topbar{
+  width: 100%;
+  background-color: #dfe3ed;
+  padding: 1rem 0;
+}
 
 .hero {
   position: relative;
