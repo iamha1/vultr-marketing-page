@@ -11,13 +11,13 @@ wwTabBtns.forEach((btn) => {
       }
     });
     if (btn.innerHTML === "Desktop") {
-      wwImage.src = `./images.desktop.png`;
+      wwImage.src = `./images/desktop.png`;
       wwImage.style.width = `60%`;
     } else if (btn.innerHTML === "Tablet") {
-      wwImage.src = `./images.tab.png`;
+      wwImage.src = `./images/tab.png`;
       wwImage.style.width = `40%`;
     } else if (btn.innerHTML === "Mobile") {
-      wwImage.src = `./images.mobile.png`;
+      wwImage.src = `./images/mobile.png`;
       wwImage.style.width = `20%`;
     }
   });
