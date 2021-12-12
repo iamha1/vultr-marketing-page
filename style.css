@@ -17,24 +17,35 @@ body {
 .topbar{
   width: 100%;
   background-color: #dfe3ed;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .topbar-label{
-background-color: #021048;  
+background-color: #007bfc;  
 color: #fff;
 padding: 0.2rem 0.7rem;
 border-radius: 0.2rem;
-font-size: 00.9rem;
-
+font-size: 0.8rem;
 }
+
+.topbar-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar-link:hover .topbar-text{
+  color: #007bfc !important;
+  
+}
+
 .topbar-text{
   margin-left: 1rem;
   color: #142149;
   font-size: 1rem;
   font-weight: 600;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero {
