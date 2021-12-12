@@ -46,5 +46,5 @@ deployBtns.forEach((btn) => {
 });
 // clicking map button
 $(".map-svg-btn").click(() => {
-  alert("button is clicked")
-})
+  alert("button is clicked");
+});
