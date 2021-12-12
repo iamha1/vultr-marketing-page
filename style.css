@@ -208,12 +208,38 @@ body {
 .hero-svg-right {
   margin-right: -12rem;
 }
-.about-vultr {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  color:#525666
-  
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding: 3rem 7rem;
+}
+
+.about-section-col {
+  width: 45%;
+}
+.about-section-col-heading {
+  color: #142149;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.youtube-video {
+  width: 100%;
+  height: 20rem;
+}
+
+.about-section-col-description {
+  color: #525666;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.about-section-col-description p {
+  margin-bottom: 1rem;
 }
 
 .map {
@@ -953,6 +979,16 @@ body {
     margin-left: 5rem;
     margin-right: 0rem;
   }
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-section-col {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 660px) {
@@ -960,6 +996,7 @@ body {
   .hero-main-2 {
     padding: 0 2rem;
   }
+
   .feature-col {
     margin-left: 0;
   }
