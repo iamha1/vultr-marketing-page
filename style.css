@@ -19,6 +19,11 @@ body {
   background-color: #dfe3ed;
   padding: 1rem 0;
 }
+.topbar-label{
+background-color: #021048;  
+color: #fff;
+padding: 0.4rem 1rem;
+}
 
 .hero {
   position: relative;
