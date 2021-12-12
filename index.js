@@ -1,4 +1,4 @@
-let wwTabBtns = document.querySelector(".worldwide-tabs-link");
+let wwTabBtns = document.querySelectorAll(".worldwide-tabs-link");
 let wwImage = document.querySelector(".worldwide-tabs-img");
 
 wwTabBtns.forEach((btn) => {
