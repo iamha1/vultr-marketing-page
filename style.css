@@ -18,11 +18,22 @@ body {
   width: 100%;
   background-color: #dfe3ed;
   padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .topbar-label{
 background-color: #021048;  
 color: #fff;
-padding: 0.4rem 1rem;
+padding: 0.2rem 0.7rem;
+border-radius: 0.2rem;
+font-size: 00.9rem;
+
+}
+.topbar-text{
+  margin-left: 1rem;
+  color: #142149;
+  font-size: 1rem;
 }
 
 .hero {
