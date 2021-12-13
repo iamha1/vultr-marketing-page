@@ -349,6 +349,7 @@ body {
 
 .differences {
   padding: 5rem 0;
+  padding-bottom: 2rem;
 }
 
 .differences-heading {
@@ -375,6 +376,7 @@ body {
   margin: auto;
   padding: 5rem 0;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .differences-row-col {
@@ -423,10 +425,10 @@ body {
 .worldwide {
   padding: 8rem 0;
   background-color: #fff;
-  border-top: 0.1rem solid #edeef2;
   border-bottom: 0.1rem solid #edeef2;
   position: relative;
   overflow: hidden;
+  padding-top: 2rem;
 }
 
 .worldwide-heading {
@@ -434,7 +436,7 @@ body {
   color: #142149;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .worldwide-desc {
@@ -1091,4 +1093,3 @@ body {
     width: 100%;
   }
 }
-/*# sourceMappingURL=index.css.map */
