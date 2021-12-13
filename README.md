@@ -15,4 +15,5 @@ The link for the page is:
 - https://www.vultr.com/promo/cycle50/
 - https://www.youtube.com/vultr
 
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
