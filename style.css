@@ -276,7 +276,6 @@ body {
 }
 
 .map {
-
   background-color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -642,7 +641,7 @@ body {
   padding: 8rem 0;
   background-color: #fff;
   border-top: 0.1rem solid #edeef2;
-  border-bottom: 0.1rem solid #edeef2;
+  padding-bottom: 2rem;
 }
 
 .deploy-heading {
@@ -1015,7 +1014,7 @@ body {
     margin-right: 0rem;
   }
   .about-section {
-    padding: 2rem;   
+    padding: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
